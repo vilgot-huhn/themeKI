@@ -1,26 +1,26 @@
 {
-    "id": "76220330",
-    "path": "~/GitHub/Kaldo_Code/Vilgot Works In Progress/KI_colors_ggplot.R",
-    "project_path": null,
+    "id": "76C21C64",
+    "path": "~/GitHub/themeKI/R/ggscales_KI.R",
+    "project_path": "R/ggscales_KI.R",
     "type": "r_source",
-    "hash": "2938917191",
+    "hash": "2255725591",
     "contents": "",
     "dirty": false,
-    "created": 1715799048244.0,
+    "created": 1715802118253.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "153,0",
-        "scrollLine": "142"
+        "cursorPosition": "30,1",
+        "scrollLine": "10"
     },
     "folds": "",
-    "lastKnownWriteTime": 1715782991,
+    "lastKnownWriteTime": 1715802158,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1715782991,
+    "last_content_update": 1715802158973,
     "read_only": false,
     "read_only_alternatives": []
 }
