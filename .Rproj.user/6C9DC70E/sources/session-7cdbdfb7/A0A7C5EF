@@ -1,26 +1,26 @@
 {
-    "id": "2100EABD",
-    "path": "~/GitHub/themeKI/R/colour_palettes.R",
-    "project_path": "R/colour_palettes.R",
+    "id": "A0A7C5EF",
+    "path": "~/GitHub/themeKI/R/ggscales_KI.R",
+    "project_path": "R/ggscales_KI.R",
     "type": "r_source",
-    "hash": "2710650555",
+    "hash": "3410836288",
     "contents": "",
     "dirty": false,
-    "created": 1715802136816.0,
+    "created": 1717012512212.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "48,0",
-        "scrollLine": "0"
+        "cursorPosition": "42,0",
+        "scrollLine": "21"
     },
     "folds": "",
-    "lastKnownWriteTime": 1715802144,
+    "lastKnownWriteTime": 1717012945,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1715802144285,
+    "last_content_update": 1717012945909,
     "read_only": false,
     "read_only_alternatives": []
 }

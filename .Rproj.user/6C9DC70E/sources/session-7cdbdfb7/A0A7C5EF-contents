@@ -11,6 +11,15 @@ scale_color_KI_discrete <- function(colors = 1 ,...){
   }
 }
 
+scale_color_KI_discrete_pilot <- function(colors = "a" ,...){
+  switch(colors,
+         a = ggplot2::discrete_scale("colour","KI",palette = KI_pal()),
+         b = ggplot2::discrete_scale("colour","KI",palette = KI_pal_2()),
+         c = ggplot2::discrete_scale("colour","KI",palette = KI_pal_3()),
+         stop("unknown input, input a letter e.g. 'a' ")
+         )
+}
+
 scale_fill_KI_discrete <- function(colors = 1 ,...){
   if(colors == 1) {
     ggplot2::discrete_scale("fill","KI",palette = KI_pal())
@@ -20,6 +29,8 @@ scale_fill_KI_discrete <- function(colors = 1 ,...){
     ggplot2::discrete_scale("fill","KI",palette = KI_pal_3())
   }
 }
+
+
 
 #Continuous colors based on theme
 scale_fill_KI_continuous <- function(...) {
