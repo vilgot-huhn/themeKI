@@ -1,6 +1,10 @@
+
 #' Theme Functions
 #'
 #' These functions let you add one of two KI themes.
+#'
+#' @param ...
+#'
 #' @examples
 #' ggplot() + theme_KI()
 theme_KI <- function(...){
@@ -29,6 +33,8 @@ theme_KI <- function(...){
 #' Theme Functions 2
 #'
 #' These functions let you add one of two KI themes.
+#' @param ...
+#'
 #' @examples
 #' ggplot() + theme_KI_2()
 #'
