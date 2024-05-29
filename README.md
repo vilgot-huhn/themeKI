@@ -22,9 +22,7 @@ font_add_google("DM Sans")
 ```
 
 ### 3. Test it out with simulated data
-Test it out with simulated data. If you get `warnings()` it probably means the font installation didn't work.
-
-*Be aware* you may need to rerun the font installation in new R sessions.
+Test it out with simulated data. If you get `warnings()` it probably means the font installation didn't work. In that case you may need to rerun the font installation `font_add_google("DM Sans")`  in new R sessions.
 
 ```
 library(ggplot2)
