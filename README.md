@@ -33,12 +33,12 @@ df2 <- data.frame(A=rbinom(100,5,prob=0.2),B=as.factor(rbinom(100,7,prob = 0.4))
 
 #theme 1
 ggplot(df2, aes(A, fill = B)) + geom_bar(colour = "black", position = position_dodge(preserve = "single")) +
-  theme_KI() + scale_fill_KI_discrete(colors = 1) +
+  theme_KI() + scale_fill_KI_discrete(colors = "a") +
   xlab("X-axis means nothing") + ylab("This is nonsense data") + ggtitle("Figure 2.")
 
 #theme 2  
 ggplot(df2, aes(A, fill = B)) + geom_bar(colour = "black", position = position_dodge(preserve = "single")) +
-  theme_KI_2() + scale_fill_KI_discrete(colors = 1) +
+  theme_KI_2() + scale_fill_KI_discrete(colors = "a") +
   xlab("X-axis pretty font") + ylab("Total counts") + ggtitle("Figure 1.")
 ```
 
