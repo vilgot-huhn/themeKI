@@ -1,3 +1,21 @@
+scales::manual_pal(KI_colors_2)
+}
+#Additional lternative order with less bright colors
+KI_colors_3 <- c("#870052","#FF876F","#4DB5BC","#54B986","#4F0433","#F59A00",
+"#666666","#C7ECDC","#FFC66D")
+KI_pal_3 <- function () {
+scales::manual_pal(KI_colors_3)
+}
+#Colour is set to palette 1 by default but can be changed to 2 or 3
+scale_color_KI_discrete <- function(colors = 1 ,...){
+if(colors == 1) {
+ggplot2::discrete_scale("colour","KI",palette = KI_pal())
+} else if(colors == 2){
+ggplot2::discrete_scale("colour","KI",palette = KI_pal_2())
+} else if(colors == 3){
+ggplot2::discrete_scale("colour","KI",palette = KI_pal_3())
+}
+}
 scale_fill_KI_discrete <- function(colors = 1 ,...){
 if(colors == 1) {
 ggplot2::discrete_scale("fill","KI",palette = KI_pal())
@@ -492,21 +510,3 @@ ggplot2::scale_fill_gradient(low = KI_theme_colors["dark"], high = KI_theme_colo
 scale_color_KI_continuous <- function(...) {
 ggplot2::scale_color_gradient(low = KI_theme_colors["dark"], high = KI_theme_colors["light"], ...)
 }
-load("~/GitHub/themeKI/.RData")
-load_all()
-library(devtools)
-load_all()
-document()
-pkgload::dev_help('theme_KI')
-document()
-pkgload::dev_help('theme_KI')
-document()
-document()
-pkgload::dev_help('scale_color_KI_discrete')
-pkgload::dev_help('scale_color_KI_discrete')
-document()
-document()
-pkgload::dev_help('scale_color_KI_discrete')
-pkgload::dev_help('scale_color_KI_continuous')
-load_all()
-?theme_KI()
