@@ -26,6 +26,7 @@ Test it out with simulated data. If you get `warnings()` it probably means the f
 
 ```
 library(ggplot2)
+library(themeKI)
 
 #fake data
 df2 <- data.frame(A=rbinom(100,5,prob=0.2),B=as.factor(rbinom(100,7,prob = 0.4)))
