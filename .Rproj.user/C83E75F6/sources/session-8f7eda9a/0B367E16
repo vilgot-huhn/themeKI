@@ -1,24 +1,24 @@
 {
-    "id": "0ACC72D3",
-    "path": "~/GitHub/themeKI/.Rhistory",
-    "project_path": ".Rhistory",
-    "type": "r_history",
-    "hash": "1209483796",
+    "id": "0B367E16",
+    "path": "~/GitHub/themeKI/R/onAttach.R",
+    "project_path": "R/onAttach.R",
+    "type": "r_source",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1717591483963.0,
+    "created": 1717751139011.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 7,
     "properties": {
         "source_window_id": "",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1717591439,
+    "lastKnownWriteTime": 1717751096,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1717591439,
+    "last_content_update": 1717751096,
     "read_only": false,
     "read_only_alternatives": []
 }
