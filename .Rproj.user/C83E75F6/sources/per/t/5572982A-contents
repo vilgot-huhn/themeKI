@@ -1,0 +1,49 @@
+#color palettes
+KI_colors <- c("#4F0433","#FF876F","#870052","#FEEEEB",
+               "#4DB5BC","#CCEBED","#666666","#F1F1F1",
+               "#54B986","#C7ECDC","#FFC66D","#FFE7C2")
+
+KI_pal <- function () {
+  scales::manual_pal(KI_colors)
+}
+
+#Alternative order with fewer bright colors
+KI_colors_2 <- c("#870052","#FF876F","#4F0433","#4DB5BC",
+                 "#54B986","#666666","#FFC66D","#FFE7C2")
+
+KI_pal_2 <- function () {
+  scales::manual_pal(KI_colors_2)
+}
+
+#Additional alternative order with fewer bright colors, different order
+KI_colors_3 <- c("#870052","#FF876F","#4DB5BC","#54B986",
+                 "#4F0433","#F59A00","#666666","#C7ECDC",
+                 "#FFC66D")
+
+KI_pal_3 <- function () {
+  scales::manual_pal(KI_colors_3)
+}
+
+#Color for the theme, panel etc
+KI_theme_colors <- c(
+  background = '#FFFFFF',
+  text       = '#4F0433',
+  panel      = '#EDF4F4',
+  border     = '#000000',
+  lighter    = '#FEEEEB',
+  light      = '#FF876F',
+  medium     = '#870052',
+  dark       = '#4F0433'
+)
+
+KI_theme_colors_2 <- c(
+  background = '#EDF4F4',
+  text       = '#4F0433',
+  panel      = '#FFFFFF',
+  border     = '#000000',
+  lighter    = '#FEEEEB',
+  light      = '#FF876F',
+  medium     = '#870052',
+  dark       = '#4F0433'
+)
+

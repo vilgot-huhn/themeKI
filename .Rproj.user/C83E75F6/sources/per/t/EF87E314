@@ -3,7 +3,7 @@
     "path": "~/GitHub/themeKI/R/theme_functions.R",
     "project_path": "R/theme_functions.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "206981074",
     "contents": "",
     "dirty": false,
     "created": 1717591517278.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "10,2",
-        "scrollLine": "0"
+        "cursorPosition": "83,0",
+        "scrollLine": "66"
     },
     "folds": "",
-    "lastKnownWriteTime": 1717592220,
+    "lastKnownWriteTime": 1759221364,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1717592220708,
+    "last_content_update": 1759221364653,
     "read_only": false,
     "read_only_alternatives": []
 }
